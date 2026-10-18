@@ -2,8 +2,9 @@ import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { config } from "./data";
 import Cake from "./Cake.jsx";
 import { confetti, reduceMotion } from "./fx";
-import guitarVideo from "../video1.mp4";
-import heartVideo from "../video2.mp4";
+const guitarVideo = "https://res.cloudinary.com/vj5mc3kf/video/upload/v1792351686/video1-CswqSRW4.mp4";
+
+const heartVideo = "https://res.cloudinary.com/vj5mc3kf/video/upload/v1792353365/video2_compressed.mp4";
 
 const photoUrl = (file) => import.meta.env.BASE_URL + "photos/" + file;
 
